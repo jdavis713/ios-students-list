@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B872F0F2293095C0012A954 /* StudentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B872F0E2293095C0012A954 /* StudentController.swift */; };
+		8B872F11229312780012A954 /* StudentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B872F10229312780012A954 /* StudentsTableViewController.swift */; };
 		9D59B908211812F9002FB7CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D59B907211812F9002FB7CD /* AppDelegate.swift */; };
 		9D59B90D211812FA002FB7CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D59B90B211812FA002FB7CD /* Main.storyboard */; };
 		9D59B90F211812FA002FB7CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D59B90E211812FA002FB7CD /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B872F0E2293095C0012A954 /* StudentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentController.swift; sourceTree = "<group>"; };
+		8B872F10229312780012A954 /* StudentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StudentsTableViewController.swift; path = Resources/StudentsTableViewController.swift; sourceTree = "<group>"; };
 		9D59B904211812F9002FB7CD /* Students.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Students.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D59B907211812F9002FB7CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D59B90C211812FA002FB7CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				9D59B907211812F9002FB7CD /* AppDelegate.swift */,
+				8B872F10229312780012A954 /* StudentsTableViewController.swift */,
 				9D59B92221181364002FB7CD /* Model */,
 				9D59B91921181300002FB7CD /* Resources */,
 			);
@@ -79,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				9D59B9232118136C002FB7CD /* Student.swift */,
+				8B872F0E2293095C0012A954 /* StudentController.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -115,6 +121,7 @@
 				TargetAttributes = {
 					9D59B903211812F9002FB7CD = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -156,7 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D59B908211812F9002FB7CD /* AppDelegate.swift in Sources */,
+				8B872F0F2293095C0012A954 /* StudentController.swift in Sources */,
 				9D59B9242118136C002FB7CD /* Student.swift in Sources */,
+				8B872F11229312780012A954 /* StudentsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,7 +320,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lambdaschool.Students;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -329,7 +338,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lambdaschool.Students;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
