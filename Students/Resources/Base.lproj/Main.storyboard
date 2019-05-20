@@ -38,6 +38,9 @@
                                                         <segment title="First Name"/>
                                                         <segment title="Last Name"/>
                                                     </segments>
+                                                    <connections>
+                                                        <action selector="sort:" destination="Bgo-E7-aA2" eventType="valueChanged" id="S7y-mG-BiJ"/>
+                                                    </connections>
                                                 </segmentedControl>
                                             </subviews>
                                         </stackView>
@@ -58,6 +61,9 @@
                                                         <segment title="Web"/>
                                                         <segment title="UX"/>
                                                     </segments>
+                                                    <connections>
+                                                        <action selector="filter:" destination="Bgo-E7-aA2" eventType="valueChanged" id="G2P-uP-rTe"/>
+                                                    </connections>
                                                 </segmentedControl>
                                             </subviews>
                                         </stackView>
@@ -107,6 +113,10 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="WYJ-pt-Aiu"/>
+                    <connections>
+                        <outlet property="filterSegmentedControl" destination="plk-Ul-7m6" id="vHG-jU-fOJ"/>
+                        <outlet property="sortSegmentedControl" destination="eLh-Ta-jeV" id="gar-mr-scN"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UcC-vT-peZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

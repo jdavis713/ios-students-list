@@ -19,7 +19,7 @@
 
 /* Begin PBXFileReference section */
 		8B872F0E2293095C0012A954 /* StudentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentController.swift; sourceTree = "<group>"; };
-		8B872F10229312780012A954 /* StudentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StudentsTableViewController.swift; path = Resources/StudentsTableViewController.swift; sourceTree = "<group>"; };
+		8B872F10229312780012A954 /* StudentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsTableViewController.swift; sourceTree = "<group>"; };
 		9D59B904211812F9002FB7CD /* Students.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Students.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D59B907211812F9002FB7CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D59B90C211812FA002FB7CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -41,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B872F13229314570012A954 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B872F10229312780012A954 /* StudentsTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		9D59B8FB211812F9002FB7CD = {
 			isa = PBXGroup;
 			children = (
@@ -61,7 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				9D59B907211812F9002FB7CD /* AppDelegate.swift */,
-				8B872F10229312780012A954 /* StudentsTableViewController.swift */,
+				8B872F13229314570012A954 /* View Controllers */,
 				9D59B92221181364002FB7CD /* Model */,
 				9D59B91921181300002FB7CD /* Resources */,
 			);
